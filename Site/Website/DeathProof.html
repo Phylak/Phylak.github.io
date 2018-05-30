@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kill Bill(Vol1)</title>
+    <link type="text/css" rel="stylesheet" href="QTStyling.css">
+</head>
+<body>
+    <div id="movies">
+    <header>
+        <p>Quentin Tarantino</p>
+         <nav class="navigation">
+                <ul>
+                    <li><a href="Bio.html">Bio</a></li>
+                   
+                    <li ><a href="../Website/ResevoirDogs.html" onclick="showUl()" class="active">Movies</a></li>
+                    <ul id="navMovies">
+                         <div class="dropdown-content" id="myDropDown">
+                        <li><a href="../Website/ResevoirDogs.html" class="showAnchor" style="visibility:">Reservoir Dogs</a></li>
+                        <li><a href="PulpFiction.html" class="showAnchor" style="visibility:" >Pulp Fiction</a></li>
+                        <li><a href="JackieBrown.html" class="showAnchor" style="visibility: ">Jackie Brown</a></li>
+                        <li><a href="KillBill1.html" class="showAnchor" style="visibility: ">Kill Bill(Vol. 1)</a></li>
+                        <li><a href="KillBill2.html" class="showAnchor" style="visibility:">Kill Bill(Vol. 2)</a></li>
+                        <li><a href="SinCity.html" class="showAnchor" style="visibility:">Sin City</a></li>
+                        <li><a href="DeathProof.html"  class="active" class="showAnchor" style="visibility:">Death Proof</a></li>
+                        <li><a href="InglouriousBasterds.html" class="showAnchor" style="visibility:">Inglourious Basterds</a></li>
+                        <li><a href="DjangoUnchained.html" class="showAnchor" style="visibility:">Django Unchained</a></li>
+                        <li><a href="TheHatefulEight.html" class="showAnchor" style="visibility:">The Hateful Eight </a></li>
+                        </div>
+                    </ul>
+                    
+                    <li><a href="Awards.html">Awards</a></li>
+                    <li><a href="Trademark.html">Trademark</a></li>
+                    <li><a href="News.html">News</a></li>
+                </ul>
+             </nav>    
+    </header>
+    <main>
+        <h1>Kill Bill: Vol. 2 (2004)</h1>
+        <p class="genre">Genre: Crime, Thriller</p>
+        <section class="infoMovie">
+        <figure class="moviepicture">
+            <img src="../QTimages/Death_Proof_USA_Poster.png" alt="">
+        </figure>
+        <div class="movieText">
+        <p>
+       Death Proof is a 2007 American exploitation horror film written and directed by Quentin Tarantino. It stars Kurt Russell as a stuntman who murders young women in staged car accidents using his "death-proof" stunt car. It co-stars Rosario Dawson, Vanessa Ferlito, Jordan Ladd, Rose McGowan, Sydney Tamiia Poitier, Tracie Thoms and Mary Elizabeth Winstead, with stuntwoman Zoë Bell as herself. The film pays homage to the slasher, exploitation and muscle car films of the 1970s.
+       </p> 
+            
+        <p>
+       Death Proof was released theatrically in the United States as part of a double feature with Robert Rodriguez’s Planet Terror under the collective title Grindhouse, to recreate the experience of viewing exploitation film double features in a "grindhouse" theater. The films were released separately outside the United States and on DVD, with Death Proof going on sale in the U.S. on September 18, 2007. The film was in the main competition for the Palme d'Or at the 2007 Cannes Film Festival.
+        </p>
+        </div>
+        <figure class="trailer">
+             <iframe width="700" height="400"
+                src="https://www.youtube.com/embed/EAPy76vxF5s">
+            </iframe>
+        </figure>
+        </section>
+        
+    <section id="actors">
+      
+       <div class="actorImg">
+        <img src="../QTimages/DP/KurtRussell.jpg" alt="">
+        <p>Kurt Russell</p>
+      </div>
+      
+       <div class="actorImg">
+        <img src="../QTimages/DP/Zo%C3%ABBell.jpg" alt="">
+        <p>Zoë Bell</p>
+       </div>
+       
+       <div class="actorImg">
+        <img src="../QTimages/DP/RosarioDawson.jpg" alt="">
+        <p>Rosario Dawson</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/DP/VanessaFerlito.jpg" alt="">
+        <p>Vanessa Ferlito</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/DP/SydneyTamiiaPoitier.jpg" alt="">
+        <p>Sydney Tamiia Poitier</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/DP/TracieThoms.jpg" alt="">
+        <p>Tracie Thoms</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/DP/RoseMcGowan.jpg" alt="">
+        <p>Rose McGowan</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/DP/JordanLadd.jpg" alt="">
+        <p>Jordan Ladd</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/DP/MaryElizabethWinstead.jpg" alt="">
+        <p>Mary Elizabeth Winstead</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/DP/QuentinTarantino.jpg" alt="">
+        <p>Quentin Tarantino</p>
+        </div>
+         
+          <div class="actorImg">
+        <img src="../QTimages/DP/MarcyHarriell.jpg" alt="">
+        <p>Marcy Harriell</p>
+        </div>
+         
+          <div class="actorImg">
+        <img src="../QTimages/DP/EliRoth.jpg" alt="">
+        <p>Eli Roth</p>
+        </div>
+    </section>
+    </main>
+    </div>
+     <script>
+    
+    function showUl()
+    {
+        document.getElementById("myDropDown").classList.toggle("show");
+        
+    }
+    window.onclick=function(e){
+        if (!e.target.matches('.dropdown-content'))
+            {
+                var myDropdown=document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show'))
+                    {
+                        myDropdown.classList.remove('show');
+                    }
+            }
+    }
+    </script>
+</body>
+</html>

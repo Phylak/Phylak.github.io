@@ -1,0 +1,670 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+#wrapper{
+    font-size: 1.2em;   
+}
+
+header{
+    background-color: #640000;
+    width:220px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navigation ul
+{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.navigation li{
+    margin-bottom: 30px;
+   
+}
+.dropdown-content > li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1rem;
+    margin-left: 60px;
+    color: white;
+}
+.navigation ul > li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 30px;
+    
+}
+
+header p{
+    font-weight: bold;
+    font-size: 1.2rem;
+ text-align: center;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    color: white;
+   
+}
+
+.navigation .active{
+    font-weight: bold;
+    color:black;
+}
+#navMovies > li a{
+    font-size: 1.0rem;
+   
+}
+/*HOMEPAGE BIO*/
+.frontpage
+{
+    display: flex;
+}
+
+.qt img{
+    padding: 30px;
+    width: 570px;
+    height: 600px;
+
+}
+
+.rightside{
+    flex: 50%;
+    margin-left: 15px;
+    padding: 10px;
+    background-color: black;    
+ 
+}
+
+.leftside{
+    flex: 50%;
+    background-color: black;
+    padding: 10px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.leftside p, .leftside h1{
+    color: white;
+    padding: 20px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.rightside h1{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 0px;
+    color: white;
+}
+.rightside p{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+/*Movies*/
+#movies{
+    font-size: 1.2em;
+    
+}
+main{
+    margin-left: 170px;
+}
+
+main h1{
+    font-size: 1.7rem;
+    margin-left: 60px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: black;
+}
+.genre{
+    margin-left: 50px;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.moviepicture img{
+    width: 300px;
+    height: 400px;   
+    margin-left: 60px;
+}
+
+
+.infoMovie{
+    display: flex;
+    margin-bottom:60px;
+}
+.movieText{
+    display: flex;
+  
+}
+.infoMovie p{
+    font-size: 1rem;
+    width: 45%;  
+    margin-left: 20px;
+}
+
+.trailer{
+margin-right: 20px;
+}
+
+#actors{
+    display: flex;
+    overflow: scroll;
+    margin-left: 60px;
+    
+}
+
+#actors img{
+    margin-right: 30px;
+    height: 380px;
+}
+
+.actorImg p {
+    position: relative;
+    margin-top: -27px;
+    color: #f4f4f4;
+    background-color: #000000;
+    margin-right:30px;
+    text-align: center;
+}
+
+#navMovies > li a{
+    font-size: 1.06rem;
+    margin-left: 60px;
+}
+
+#navMovies > li{
+    margin-bottom: 20px;
+}
+
+/*Awards*/
+#awards{
+    font-size: 1.2em; 
+}
+
+.tables{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+table{
+        margin-bottom: 20px;
+}
+th, td{
+    font-size: 1.2rem;
+}
+.tables h2{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.tables h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+th{
+    border: 3px solid #525252;
+    font-weight: bold;
+}
+
+td{
+    border: 1px solid #7e0404;
+    text-align:center;
+}
+th:first-child{
+    width: 10%;
+}
+th:nth-child(2){
+    width: 40%;
+}
+th:nth-child(3){
+    width: 40%;
+}
+th:nth-child(4){
+    width: 10%;
+}
+table{
+    border-collapse: collapse;
+}
+
+/*TRADEMARK*/
+#trademark{
+   font-size: 1.2em; 
+
+}
+.trademarkImg figure img{
+    width: 300px;
+    height: 150px;
+    margin-bottom: 30px;
+  
+}
+ .trademarkImg{
+   display: flex;
+   flex-direction: column;
+   flex-flow: wrap;
+    justify-content: space-around;
+}
+.leftside h1{
+    text-align: center;
+    font-size: 1.7rem;
+    
+}
+.leftside h1+p{
+    text-align: center;
+}
+
+.rightside{
+    background-color: black;
+}
+.rightside h1{
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+.rightside h1+p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*NEWS*/
+#news{
+    font-size: 1.2em;
+    
+}
+.article figure img{
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+}
+.article h1{
+    font-size: 35px;
+}
+.article h1 + p{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 768px) 
+{
+    
+/* HEADER */
+header{
+     width: 195px;   
+}
+.navigation ul > li a{
+    font-size: 1rem;
+    margin-left: 30px;
+}
+    #navMovies > li a{
+        font-size: 0.9rem;
+    }
+/*BIO*/
+#wrapper{
+    font-size: 1.1em;   
+}
+
+.frontpage{
+        display: block;
+}
+.leftside{
+      margin-left: 0px;  
+ }
+.qt img{
+    width: 570px;
+    height: 600px;
+
+}
+.leftside p, .leftside h1{
+   margin-left: 20px;
+    text-align: center;
+}
+.rightside p, .rightside h1{
+   margin-left: 20px;
+    text-align: center;
+}
+/*Movies*/
+.infoMovie{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+}
+.moviepicture img{
+    margin-left: 0px;
+
+}
+.infoMovie{
+    display: flex;
+    margin-bottom:60px;
+   align-items: center;
+}
+.movieText{
+    display: flex;
+  
+}
+.infoMovie p{
+    font-size: 1rem;
+    width: 45%;  
+   margin-bottom: 20px;
+}
+main h1{
+        text-align: center;
+}
+    
+.genre{
+   text-align: center;
+}
+.moviepicture img{
+ margin-bottom: 20px;
+}
+/*AWARDS*/
+#awards{
+    font-size: 1.1em; 
+    
+}
+
+.tables{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+table{
+        margin-bottom: 20px;
+}
+.tables h1{
+    font-size: 30px;
+}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  #wrapper{
+    font-size: 1.2em;   
+}
+
+header{
+    background-color: #640000;
+    width: 100%;
+    position: top;
+    height: 170px;
+}
+
+.navigation ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dropdown-content > li a{
+    color: white;
+    background-color: black;
+    display: block;
+
+}
+
+.navigation ul > li a{
+    font-size: 1.6rem;
+}
+
+header p{
+   text-align: center;
+    color: white;
+   font-size: 1.4rem;
+}
+main{
+    margin-left: 0px;
+    margin-top: 170px;
+}
+      .frontpage{
+        display: block;
+}
+.rightside{
+          margin-left: 0px;
+}
+.leftside{
+          margin-left: 0px;
+      }
+.actorImg p {
+    font-size: 1.2rem;
+}
+      .tables{
+          margin-left: 0;
+      }
+}
+@media screen and (min-width: 885px) and (max-width: 1366px)
+{
+    /* HEADER */
+
+.navigation ul > li a{
+    font-size: 1rem;
+    margin-left: 30px;
+}
+    #navMovies > li a{
+        font-size: 0.9rem;
+    }
+/*BIO*/
+#wrapper{
+    font-size: 1.1em;   
+}
+
+.frontpage{
+        display: block;
+}
+.leftside{
+      margin-left: 0px;  
+ }
+
+.leftside p, .leftside h1{
+   margin-left: 20px;
+    text-align: center;
+}
+.rightside p, .rightside h1{
+   margin-left: 20px;
+    text-align: center;
+}
+/*Movies*/
+.infoMovie{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+}
+.moviepicture img{
+    margin-left: 0px;
+
+}
+.infoMovie{
+    display: flex;
+    margin-bottom:60px;
+   align-items: center;
+}
+.movieText{
+    display: flex;
+  
+}
+.infoMovie p{
+    font-size: 1rem;
+    width: 45%;  
+   margin-bottom: 20px;
+}
+main h1{
+        text-align: center;
+}
+    
+.genre{
+   text-align: center;
+}
+.moviepicture img{
+ margin-bottom: 20px;
+}
+    
+
+.tables{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.tables h1{
+    font-size: 30px;
+}
+   iframe{
+        width: 650px;
+        
+    }
+}
+@media screen and (max-width: 885px)
+{
+header{
+     width: 205px;   
+}
+.navigation ul > li a{
+    font-size: 1rem;
+    margin-left: 30px;
+}
+    #navMovies > li a{
+        font-size: 0.9rem;
+    }
+/*BIO*/
+#wrapper{
+    font-size: 1.1em;   
+}
+figure{
+        display: none;
+    }
+.qt
+    {
+       display: none;
+    }
+.frontpage{
+    display: block;
+}
+.leftside{
+      margin-left: 0px;  
+ }
+
+.leftside p, .leftside h1{
+   margin-left: 20px;
+    text-align: center;
+}
+.rightside p, .rightside h1{
+   margin-left: 20px;
+    text-align: center;
+}
+/*Movies*/
+.infoMovie{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+}
+    .genre{
+        margin-bottom: 50px
+    }
+.moviepicture img{
+    margin-left: 0px;
+
+}
+.infoMovie{
+    display: flex;
+    margin-bottom:0px;
+   align-items: center;
+}
+.movieText{
+    display: flex;
+  
+}
+.infoMovie p{
+    font-size: 1rem;
+    width: 45%;  
+   margin-bottom: 100px;
+}
+main h1{
+        text-align: center;
+}
+    
+.genre{
+   text-align: center;
+}
+.moviepicture img{
+ margin-bottom: 20px;
+    
+}
+    .trailer{
+    display: none;
+    }
+.movieText
+    {
+      
+        text-align: center;
+    }    
+
+/*TABLES*/
+.tables{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.tables h1{
+    font-size: 30px;
+}
+
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1850px) 
+{
+  .infoMovie{
+    display: flex;
+    margin-bottom:60px;
+      
+}
+.movieText{
+    display: flex;
+}
+.infoMovie p{
+    font-size: 1rem;
+    width: 45%;  
+    margin-left: 20px;
+}
+
+    .trailer{
+display: none;
+}
+ 
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kill Bill(Vol1)</title>
+    <link type="text/css" rel="stylesheet" href="QTStyling.css">
+</head>
+<body>
+    <div id="movies">
+    <header>
+        <p>Quentin Tarantino</p>
+          <nav class="navigation">
+                <ul>
+                    <li><a href="Bio.html">Bio</a></li>
+                   
+                    <li ><a href="../Website/ResevoirDogs.html" onclick="showUl()" class="active">Movies</a></li>
+                    <ul id="navMovies">
+                       <div class="dropdown-content" id="myDropDown">
+                        <li><a href="../Website/ResevoirDogs.html" class="showAnchor" style="visibility:">Reservoir Dogs</a></li>
+                        <li><a href="PulpFiction.html" class="showAnchor" style="visibility:" >Pulp Fiction</a></li>
+                        <li><a href="JackieBrown.html" class="showAnchor" style="visibility: ">Jackie Brown</a></li>
+                        <li><a href="KillBill1.html"  class="active" class="showAnchor" style="visibility: ">Kill Bill(Vol. 1)</a></li>
+                        <li><a href="KillBill2.html" class="showAnchor" style="visibility:">Kill Bill(Vol. 2)</a></li>
+                        <li><a href="SinCity.html" class="showAnchor" style="visibility:">Sin City</a></li>
+                        <li><a href="DeathProof.html" class="showAnchor" style="visibility:">Death Proof</a></li>
+                        <li><a href="InglouriousBasterds.html" class="showAnchor" style="visibility:">Inglourious Basterds</a></li>
+                        <li><a href="DjangoUnchained.html" class="showAnchor" style="visibility:">Django Unchained</a></li>
+                        <li><a href="TheHatefulEight.html" class="showAnchor" style="visibility:">The Hateful Eight </a></li>
+                        </div>
+                    </ul>
+                    
+                    <li><a href="Awards.html">Awards</a></li>
+                    <li><a href="Trademark.html">Trademark</a></li>
+                    <li><a href="News.html">News</a></li>
+                </ul>
+             </nav>      
+    </header>
+    <main>
+        <h1>Kill Bill: Vol. 1 (2003)</h1>
+        <p class="genre">Genre: Crime, Action, Thriller</p>
+        <section class="infoMovie">
+        <figure class="moviepicture">
+            <img src="../QTimages/KillBill(Vol1).jpg" alt="">
+        </figure>
+        <div class="movieText">
+        <p>
+          Kill Bill: Volume 1 is a 2003 American martial arts film written and directed by Quentin Tarantino. It stars Uma Thurman as the Bride, who swears revenge on a team of assassins (Lucy Liu, Michael Madsen, Daryl Hannah, and Vivica A. Fox) and their leader Bill (David Carradine) after they try to kill her and her unborn child. Her journey takes her to Japan, where she battles the Tokyo yakuza.</p> 
+            
+            <p>
+         Tarantino conceived Kill Bill as an homage to "grindhouse" cinema including martial arts films, samurai cinema, blaxploitation films, and spaghetti westerns. It features an anime sequence animated by Production I.G. It is the first of two Kill Bill films made in a single production; the films were originally set for a single release, but the film, with a runtime of over four hours, was divided in two. Volume 1 became Tarantino's highest-grossing film up to that point, earning over $180 million at the box office. Kill Bill: Volume 2 was released on April 16, 2004.
+        </p>
+        </div>
+        <figure class="trailer">
+             <iframe width="700" height="400"
+                src="https://www.youtube.com/embed/7kSuas6mRpk">
+            </iframe>
+        </figure>
+        </section>
+        
+    <section id="actors">
+      
+       <div class="actorImg">
+        <img src="../QTimages/KB1/UmaThurman.jpg" alt="">
+        <p>Uma Thurman</p>
+      </div>
+      
+       <div class="actorImg">
+        <img src="../QTimages/KB1/LucyLiu.jpg" alt="">
+        <p>Lucy Liu</p>
+       </div>
+       
+       <div class="actorImg">
+        <img src="../QTimages/KB1/VivicaA.Fox.jpg" alt="">
+        <p>Vivica A. Fox</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/KB1/DarylHannah.jpg" alt="">
+        <p>Daryl Hannah</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/KB1/DavidCarradine.jpg" alt="">
+        <p>David Carradine</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/KB1/MichaelMadsen.jpg" alt="">
+        <p>Michael Madsen</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/KB1/JulieDreyfus.jpg" alt="">
+        <p>Julie Dreyfus</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/KB1/ChiakiKuriyama.jpg" alt="">
+        <p>Chiaki Kuriyama</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/KB1/Shin'ichiChiba.jpg" alt="">
+        <p>Shin'ichi Chiba</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/KB1/Chia-HuiLiu.jpg" alt="">
+        <p>Chia-Hui Liu</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/KB1/MichaelParks.jpg" alt="">
+        <p>Michael Parks</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/KB1/MichaelBowen.jpg" alt="">
+        <p>Michael Bowen</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/KB1/JunKunimura.jpg" alt="">
+        <p>Jun Kunimura</p>
+        </div>
+     
+    </section>
+    </main>
+    </div>
+     <script>
+    
+    function showUl()
+    {
+        document.getElementById("myDropDown").classList.toggle("show");
+        
+    }
+    window.onclick=function(e){
+        if (!e.target.matches('.dropdown-content'))
+            {
+                var myDropdown=document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show'))
+                    {
+                        myDropdown.classList.remove('show');
+                    }
+            }
+    }
+    </script>
+</body>
+</html>

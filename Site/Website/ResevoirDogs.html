@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resevoir Dogs</title>
+    <link type="text/css" rel="stylesheet" href="QTStyling.css">
+</head>
+<body>
+   <div id="movies">
+    <header>
+        <p>Quentin Tarantino</p>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="Bio.html">Bio</a></li>
+                   
+                    <li ><a href="../Website/ResevoirDogs.html" onclick="showUl()"  class="active">Movies</a></li>
+                    <ul id="navMovies">
+                       <div class="dropdown-content"  class="active" id="myDropDown">
+                        <li><a href="../Website/ResevoirDogs.html" style="visibility:" class="active">Reservoir Dogs</a></li>
+                        <li><a href="PulpFiction.html" class="showAnchor" style="visibility:" >Pulp Fiction</a></li>
+                        <li><a href="JackieBrown.html" class="showAnchor" style="visibility: ">Jackie Brown</a></li>
+                        <li><a href="KillBill1.html" class="showAnchor" style="visibility: ">Kill Bill(Vol. 1)</a></li>
+                        <li><a href="KillBill2.html" class="showAnchor" style="visibility:">Kill Bill(Vol. 2)</a></li>
+                        <li><a href="SinCity.html" class="showAnchor" style="visibility:">Sin City</a></li>
+                        <li><a href="DeathProof.html" class="showAnchor" style="visibility:">Death Proof</a></li>
+                        <li><a href="InglouriousBasterds.html" class="showAnchor" style="visibility:">Inglourious Basterds</a></li>
+                        <li><a href="DjangoUnchained.html" class="showAnchor" style="visibility:">Django Unchained</a></li>
+                        <li><a href="TheHatefulEight.html" class="showAnchor" style="visibility:">The Hateful Eight </a></li>
+                        </div>
+                    </ul>
+                    
+                    <li><a href="Awards.html">Awards</a></li>
+                    <li><a href="Trademark.html">Trademark</a></li>
+                    <li><a href="News.html">News</a></li>
+                </ul>
+             </nav>       
+    </header>
+    <main>
+        <h1>Resevoir Dogs (1992)</h1>
+        <p class="genre">Genre: Misdaad, Drama, Thriller</p>
+        <section class="infoMovie">
+        <figure class="moviepicture">
+            <img src="../QTimages/resevoirdogs.jpg" alt="Resevoir Dogs">
+        </figure>
+        <div class="movieText">
+        <p>
+            Reservoir Dogs is een Amerikaanse cultfilm uit 1992 en het regiedebuut van Quentin Tarantino.
+            Het scenario, geschreven door Tarantino, was geïnspireerd door de film Long hu feng yun (City on Fire) uit 1987 van de Hongkongse regisseur Ringo Lam. Tarantino wilde het scenario oorspronkelijk met een aantal van zijn vrienden verfilmen. Harvey Keitel kreeg het scenario te lezen en wilde er ook in investeren. De financiën ($1,2 miljoen) kregen ze bijeen door Tarantino's scenario voor True Romance te verkopen en door Keitels eigen inbreng. </p> 
+            
+            <p>Veel van de kostuums in de film zijn de eigen kleren van de acteurs. De titel is een verbastering van Au revoir les enfants, een film van Louis Malle, en Straw Dogs, een film van Sam Peckinpah. Deze film vertoont alle typische Tarantino-kenmerken. Het verhaal wordt niet chronologisch verteld, maar is opgebouwd rondom de verschillende personages. Zo krijgen we gedurende de film steeds meer informatie over de personages. Ook de typische gesprekken die ogenschijnlijk over koetjes en kalfjes gaan, komen veel voor. Een goed voorbeeld daarvan is het gekibbel over wie welke naam krijgt. Ook het brute geweld dat Tarantino vaak gebruikt is hier veelvuldig aan de orde. Geen bombastische dramatiek, maar onverwachte uitbarstingen van de personages, waardoor het geweld des te schokkender overkomt op de kijker.
+        </p>
+        </div>
+        <figure class="trailer">
+             <iframe width="700" height="400"
+                src="https://www.youtube.com/embed/vayksn4Y93A">
+            </iframe>
+        </figure>
+        </section>
+        
+    <section id="actors">
+      
+       <div class="actorImg">
+        <img src="../QTimages/RD/HarveyKeitel.jpg" alt="Harvey Keitel">
+        <p>Harvey Keitel</p>
+      </div>
+      
+       <div class="actorImg">
+        <img src="../QTimages/RD/MichaelMadsen.jpg" alt="">
+        <p>Michael Madsen</p>
+       </div>
+       
+       <div class="actorImg">
+        <img src="../QTimages/RD/TimRoth.jpg" alt="">
+        <p>Tim Roth</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/RD/SteveBuscemi.jpg" alt="">
+        <p>Steve Buscemi</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/RD/ChrissPenn.jpg" alt="">
+        <p>Chriss Penn</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/RD/EdwardBunker.jpg" alt="">
+        <p>Edward Bunker</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/RD/KirkBaltz.jpg" alt="">
+        <p>Kirk Baltz</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/RD/RandyBrooks.jpg" alt="">
+        <p>Randy Brooks</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/RD/LawrenceTierney.jpg" alt="">
+        <p>Lawrence Tierney</p>
+        </div>
+        
+        <div class="actorImg">
+        <img src="../QTimages/RD/QuentinTarantino.jpg" alt="">
+        <p>Quentin Tarantino</p>
+        </div>
+    </section>
+    </main>
+    </div>
+     <script>
+    
+    function showUl()
+    {
+        document.getElementById("myDropDown").classList.toggle("show");
+        
+    }
+    window.onclick=function(e){
+        if (!e.target.matches('.dropdown-content'))
+            {
+                var myDropdown=document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show'))
+                    {
+                        myDropdown.classList.remove('show');
+                    }
+            }
+    }
+
+    </script>
+</body>
+</html>
